@@ -1,0 +1,37 @@
+<div class="container-fluid body-area">
+  <div class="row header-panel">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  style="text-align: center; padding: 2vh 4vh;">
+      <i class="fa fa-bars" ng-click="openSlider()" style="float: left;"></i>
+      The Song App
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  style="text-align: center; padding: 2vh; font-size: 18px;">
+      Track's Genres
+    </div>
+  </div>
+  <!-- <div class="row" style="padding: 20px;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  style="text-align: center;">
+      <input type="text" class="form-control" placeholder="Search...">
+    </div>
+  </div> -->
+  <div class="row" style="padding: 20px;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  style="text-align: center;">
+      <div class="div-table">
+        <div class="div-table-row" ng-repeat="genre in genreArr">
+          {{genre.name}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+<div class="sidebar">
+  <ul>
+    <li>Tracks</li>
+    <li>Genres</li>
+  </ul>
+</div>
